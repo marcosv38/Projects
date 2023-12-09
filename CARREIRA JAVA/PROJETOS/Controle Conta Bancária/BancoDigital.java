@@ -87,8 +87,10 @@ public class BancoDigital {
                                                 
                         """);
 
+                //Lendo a opção escolhida pelo usuário
                 opcoesSistema = leituraTeclado.nextInt();
 
+                //Trabalhando a opção escolhida através do switch
                 switch (opcoesSistema) {
 
                     case 1:
