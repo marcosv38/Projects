@@ -148,6 +148,7 @@ public class BancoDigital {
         leituraTeclado.close();
     }
 
+    //Função utilizada para realizar transferências
     public static double FazerTransferencia(double saldo){
         System.out.println("Quanto você pretende transferir:");
         Scanner leituraDoTeclado = new Scanner(System.in);
@@ -174,7 +175,8 @@ public class BancoDigital {
         leituraDoTeclado.close();
         return saldo;
     }
-
+    
+    //Função utilizada para realizar depósitos
     public static double Depositar (double saldo){
         Scanner leituraTeclado = new Scanner(System.in);
         System.out.println("Quanto você pretende depositar:");
