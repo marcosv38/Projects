@@ -8,8 +8,8 @@ public class BancoDigital {
         //Variáveis
         String nomeCliente = "";
         String tipoDeConta = "";
-        double saldoDaConta = 0;
-        int opcoesSistema = 0;
+        double saldoDaConta = 20;
+        int opcoesSistema = 20;
 
         //Mensagens de inicialização
         System.out.println("Iniciando sistema...");
