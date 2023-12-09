@@ -52,22 +52,22 @@ public class BancoDigital {
         if(!nomeCliente.equalsIgnoreCase("")) {
 
             System.out.println("""
-            Carregando dados...
+            Carregando dados... 
             
-            Bem vindo""" + nomeCliente);
+            Bem vindo      """ + nomeCliente);
 
-            System.out.println();
+            System.out.println("");
 
             System.out.println("""
                     ***************************************
 
                     Dados do cliente:
                                             
-                    Nome do cliente:""" + nomeCliente + """
+                    Nome do cliente: """ + nomeCliente + """
                                             
-                    Tipo de conta:""" + tipoDeConta + """
+                    Tipo de conta: """ + tipoDeConta + """
                                             
-                    Saldo da conta:""" + saldoDaConta + """
+                    Saldo da conta: """ + saldoDaConta + """
                                             
                     ***************************************
                     """);
@@ -162,13 +162,13 @@ public class BancoDigital {
             System.out.println("Fazendo transferência... Só um momento...");
             System.out.println("""
                                                                 
-                                    Transferência concluída!! Segue os dados da transferência:
+                                    Transferência concluída!! Segue os dados da transferência: 
                                                                 
-                                    Valor da transferência: R$""" + valorTransferencia + """
+                                    Valor da transferência: R$ """ + valorTransferencia + """
                                                                 
-                                    Saldo antes da transferência: R$""" + (saldo + valorTransferencia) + """
+                                    Saldo antes da transferência: R$ """ + (saldo + valorTransferencia) + """
                                                                 
-                                    Saldo Atual: R$""" + saldo + """
+                                    Saldo Atual: R$ """ + saldo + """
 
                                     """);
 
