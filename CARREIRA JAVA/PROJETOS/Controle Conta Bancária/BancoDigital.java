@@ -18,7 +18,7 @@ public class BancoDigital {
         //Iniciando programa no loop infinito até a escolha da opção "sair"
         while (nomeCliente.equalsIgnoreCase("")){
 
-            //Caso não tenha nenhum cliente cadastrado é necessário cadastrar um cliente antes de usar o sistema
+            //Caso não tenha nenhum cliente cadastrad                                                                                                                                                                    o é necessário cadastrar um cliente antes de usar o sistema
 
                 //Dando a opção de cadastrar o cliente
                 System.out.println("Não há clientes cadastrados.");
@@ -94,7 +94,7 @@ public class BancoDigital {
                         System.out.println("Seu saldo atual é: R$ " + saldoDaConta);
                         break;
                     case 2:
-                        //bloco de código sem a utilização do método Depositar()
+                        //bloco de código sem a utilização da função Depositar()
                         /*System.out.println("Quanto você pretende depositar:");
                         saldoDaConta += leituraTeclado.nextInt();
                         System.out.println("Muito bem... Depositando...");
@@ -106,7 +106,7 @@ public class BancoDigital {
                         break;
 
                     case 3:
-                        //bloco de código sem a utilização do método fazerTransferencia()
+                        //bloco de código sem a utilização da função fazerTransferencia()
                        /* System.out.println("Quanto você pretende transferir:");
                         double valorTransferencia = leituraTeclado.nextDouble();
 
