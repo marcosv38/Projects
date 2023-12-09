@@ -48,6 +48,7 @@ public class BancoDigital {
 
         }
 
+        //O sistema iniciará caso o cliente seja cadastrado
         if(!nomeCliente.equalsIgnoreCase("")) {
 
             System.out.println("""
