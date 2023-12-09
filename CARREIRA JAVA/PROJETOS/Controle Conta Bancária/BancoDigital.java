@@ -145,7 +145,7 @@ public class BancoDigital {
         }
 
 
-
+        leituraTeclado.close();
     }
 
     public static double FazerTransferencia(double saldo){
@@ -171,7 +171,7 @@ public class BancoDigital {
         } else if (valorTransferencia > saldo) {
             System.out.println("Não é possível realizar a transferência... Saldo insuficiente.");
         }
-
+        leituraDoTeclado.close();
         return saldo;
     }
 
@@ -181,7 +181,7 @@ public class BancoDigital {
         saldo += leituraTeclado.nextInt();
         System.out.println("Muito bem... Depositando...");
         System.out.println("Prontinho! Seu novo saldo é: R$ " + saldo);
-
+        leituraTeclado.close();
         return saldo;
 
     }
