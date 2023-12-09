@@ -106,7 +106,7 @@ public class BancoDigital {
                         break;
 
                     case 3:
-                        //bloco de código sem a utilização da função fazerTransferencia()
+                        //bloco de código sem a utilização da função  fazerTransferencia()
                        /* System.out.println("Quanto você pretende transferir:");
                         double valorTransferencia = leituraTeclado.nextDouble();
 
