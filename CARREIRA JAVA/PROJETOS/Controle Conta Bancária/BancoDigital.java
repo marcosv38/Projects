@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class BancoDigital {
     public static void main(String[] args) {
+
         //iniciando o Scanner para leitura de dados através do teclado
         Scanner leituraTeclado = new Scanner(System.in);
 
@@ -18,6 +19,7 @@ public class BancoDigital {
         //Iniciando programa no loop infinito até a escolha da opção "sair"
         while (nomeCliente.equalsIgnoreCase("")){
 
+
             //Caso não tenha nenhum cliente cadastrad                                                                                                                                                                    o é necessário cadastrar um cliente antes de usar o sistema
 
                 //Dando a opção de cadastrar o cliente
@@ -26,6 +28,7 @@ public class BancoDigital {
                 String decisao = leituraTeclado.nextLine();
 
                 if(decisao.equalsIgnoreCase("S")){
+
                     //Cadastrando clientes atrávels dos dados lidos no teclado
                     System.out.println("Por favor, escreva o nome do cliente: ");
                     nomeCliente = leituraTeclado.nextLine();
@@ -36,10 +39,12 @@ public class BancoDigital {
                     System.out.println("Perfeito! Agora podemos iniciar o sistema com a configuração adequada a você. Muito obrigado!!");
 
                 } else if (decisao.equalsIgnoreCase("N")) {
+
                     //Encerrando o programa caso o cliente não queira se cadastrar e usar o sistema
                     System.out.println("Ok! Encerrando programa. Até mais...");
                     break;
                 }else {
+                    
                     //Caso não seja escolhida uma opção válida o sistema irá para o proximo loop
                     System.out.println("Opção inválida. Por favor, escrever apenas S ou N.");
                     System.out.println("Tente novamente...");
@@ -47,6 +52,7 @@ public class BancoDigital {
 
 
         }
+
 
         //O sistema iniciará caso o cliente seja cadastrado
         if(!nomeCliente.equalsIgnoreCase("")) {
@@ -147,7 +153,7 @@ public class BancoDigital {
             }
         }
 
-
+        //Fechando Scanner
         leituraTeclado.close();
     }
 
@@ -175,6 +181,8 @@ public class BancoDigital {
         } else if (valorTransferencia > saldo) {
             System.out.println("Não é possível realizar a transferência... Saldo insuficiente.");
         }
+        
+        //Fechando Scanner
         leituraDoTeclado.close();
         return saldo;
     }
@@ -186,6 +194,8 @@ public class BancoDigital {
         saldo += leituraTeclado.nextInt();
         System.out.println("Muito bem... Depositando...");
         System.out.println("Prontinho! Seu novo saldo é: R$ " + saldo);
+
+        //Fechando Scanner
         leituraTeclado.close();
         return saldo;
 
