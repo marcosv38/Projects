@@ -44,7 +44,7 @@ public class BancoDigital {
                     System.out.println("Ok! Encerrando programa. Até mais...");
                     break;
                 }else {
-                    
+
                     //Caso não seja escolhida uma opção válida o sistema irá para o proximo loop
                     System.out.println("Opção inválida. Por favor, escrever apenas S ou N.");
                     System.out.println("Tente novamente...");
@@ -79,7 +79,7 @@ public class BancoDigital {
                     """);
 
 
-            while (opcoesSistema != 4) {
+            while (opcoesSistema != 4)  {
 
                 System.out.println("""
                                                 
